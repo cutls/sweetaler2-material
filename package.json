@@ -1,0 +1,14 @@
+{
+  "name": "sweetalert2-material",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "minify sweetalert2-material.css > sweetalert2-material.min.css"
+  },
+  "author": "Cutls",
+  "license": "MIT",
+  "dependencies": {
+    "minify": "6.0.0"
+  }
+}
